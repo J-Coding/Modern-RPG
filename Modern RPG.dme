@@ -1,0 +1,43 @@
+// DM Environment file for Modern RPG.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "icons"
+#define FILE_DIR "icons/area"
+#define FILE_DIR "icons/area/indoor"
+#define FILE_DIR "icons/effects"
+#define FILE_DIR "icons/interface"
+#define FILE_DIR "icons/interface/mob"
+#define FILE_DIR "icons/mob"
+#define FILE_DIR "icons/objects"
+#define FILE_DIR "icons/objects/items"
+#define FILE_DIR "icons/objects/items/food"
+#define FILE_DIR "icons/turf"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "code\area\house.dm"
+#include "code\area\nature.dm"
+#include "code\features\chat.dm"
+#include "code\features\gui\human.dm"
+#include "code\features\time\clockwork.dm"
+#include "code\features\time\daycycle.dm"
+#include "code\features\time\time.dm"
+#include "code\mob\human.dm"
+#include "code\objects\items\food\toxins\poison.dm"
+#include "code\settings\objectsettings.dm"
+#include "code\turf\nature.dm"
+#include "code\turf\streets.dm"
+#include "code\turf\turf.dm"
+#include "code\turf\walls.dm"
+#include "code\turf\spawns\mob.dm"
+#include "map\main.dmm"
+// END_INCLUDE
