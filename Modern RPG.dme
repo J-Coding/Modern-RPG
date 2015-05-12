@@ -31,6 +31,7 @@
 #include "code\features\time\clockwork.dm"
 #include "code\features\time\daycycle.dm"
 #include "code\features\time\time.dm"
+#include "code\game\verbs\debug.dm"
 #include "code\mob\human.dm"
 #include "code\objects\items\food\toxins\poison.dm"
 #include "code\settings\objectsettings.dm"
@@ -39,5 +40,6 @@
 #include "code\turf\turf.dm"
 #include "code\turf\walls.dm"
 #include "code\turf\spawns\mob.dm"
+#include "config\general.dm"
 #include "map\main.dmm"
 // END_INCLUDE

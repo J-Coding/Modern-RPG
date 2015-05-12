@@ -26,10 +26,6 @@ proc/process_time()
     spawn(1)
         process_time()
 
-
-Wenn 24h dann timenow = 0 <- Ziel
-if(timenow >=
-
 world/New()
 	timenow = (time_start*((60*60)*world.fps)/24)
 	world << "[timenow]"
