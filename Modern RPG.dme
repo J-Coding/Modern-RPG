@@ -16,7 +16,9 @@
 #define FILE_DIR "icons/mob"
 #define FILE_DIR "icons/objects"
 #define FILE_DIR "icons/objects/items"
+#define FILE_DIR "icons/objects/items/clothing"
 #define FILE_DIR "icons/objects/items/food"
+#define FILE_DIR "icons/objects/items/world"
 #define FILE_DIR "icons/turf"
 // END_FILE_DIR
 
