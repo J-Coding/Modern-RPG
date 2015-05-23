@@ -1,4 +1,4 @@
-obj/items/food/toxins/toxin
+obj/items/food/steak_raw
 	name = "raw meat"
 	desc = "a fine pice of meat. RAW!"
 	icon = 'icons/objects/items/food/food.dmi'
