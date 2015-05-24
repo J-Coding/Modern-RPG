@@ -36,6 +36,7 @@
 #include "code\features\time\daycycle.dm"
 #include "code\features\time\time.dm"
 #include "code\game\verbs\debug.dm"
+#include "code\mob\human.dm"
 #include "code\objects\items\food\rawmeat.dm"
 #include "code\objects\items\food\steak.dm"
 #include "code\objects\items\food\toxins\poison.dm"
