@@ -1,4 +1,4 @@
-obj/items/food/toxins/toxin
+obj/items/utility/bandage
 	name = "bandage"
 	desc = "a bandage to stop bleedings"
 	icon = 'icons/objects/items/utility/utility.dmi'

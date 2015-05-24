@@ -1,4 +1,4 @@
-obj/items/food/toxins/toxin
+obj/items/utility/painkiller
 	name = "Painkiller"
 	desc = "a pill of effective painkiller"
 	icon = 'icons/objects/items/utility/utility.dmi'
