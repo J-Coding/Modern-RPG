@@ -3,4 +3,4 @@ turf/spawns/human
 	name = "JoinIn"
 	luminosity = 0
 	icon = 'icons/effects/marker.dmi'
-	icon_state = "space" //Just for Mapmaking. Deactivate it for no Visibility: icon_state = "space"
+	icon_state = "blue"

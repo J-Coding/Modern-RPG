@@ -1,4 +1,4 @@
-obj/items/food/toxins/toxin
+obj/items/food/poisons/toxin
 	name = "Poison Bottle"
 	desc = "I should defenitly not drink this!"
 	icon = 'icons/objects/items/food/poisons.dmi'
