@@ -16,107 +16,64 @@
 
 //--------------- cal.: 9x19mm -------------------
 
-obj/items/weapon/ammo/container/ammo9x19
+obj/items/weapon/ammo/container/ammo9x19_box
 	name = "ammo pack (9x19)"
 	desc = "A ammo box filled with 9x19 rounds"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
 	icon_state= "9x19_box"
 
-/*  // ! still coding to do !
-obj/items/weapon/ammo/container/ammo9x19/new()
-	..()
-	contents = list()
-	new /obj/items/weapon/ammo/bullet/9x19(src)
-	new /obj/items/weapon/ammo/bullet/9x19(src)
-	new /obj/items/weapon/ammo/bullet/9x19(src)
-	new /obj/items/weapon/ammo/bullet/9x19(src)
-	new /obj/items/weapon/ammo/bullet/9x19(src)
-	new /obj/items/weapon/ammo/bullet/9x19(src)
-	new /obj/items/weapon/ammo/bullet/9x19(src)
-	return
-*/
-
 obj/items/weapon/ammo/bullet/ammo9x19
 	name = "bullet (9x19)"
 	desc = "A live 9mm Pistolround"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
-	icon_state= "9x19"
+	icon_state= "cal9×19"
 
-obj/items/weapon/ammo/shell/ammo9x19
+obj/items/weapon/ammo/shell/ammo9x19_casing
 	name = "bullet casing"
 	desc = "a used 9x19 casing"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
-	icon_state= "9x19_shell"
+	icon_state= "cal9×19_shell"
 
 //--------------- cal.: 5,7x28mm ------------------
 
-obj/items/weapon/ammo/container/ammo57x28
+obj/items/weapon/ammo/container/ammo57x28_box
 	name = "ammo pack (57x28)"
 	desc = "A ammo box filled with 5.7x28 rounds"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
 	icon_state= "5,7x28_box"
 
-/*  // ! still coding to do !
-obj/items/weapon/ammo/container/ammo57x28/new()
-	..()
-	contents = list()
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	return
-*/
-
 obj/items/weapon/ammo/bullet/ammo57x28
 	name = "bullet (57x28)"
 	desc = "A live 5.7x28 round"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
-	icon_state= "5,7x28"
+	icon_state= "cal5,7×28"
 
-obj/items/weapon/ammo/shell/ammo57x28
+obj/items/weapon/ammo/shell/ammo57x28_casing
 	name = "bullet casing"
 	desc = "a used 5.7x28 casing"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
-	icon_state= "5,7x28_shell"
+	icon_state= "cal5,7×28_shell"
 
 
 //--------------- cal.: .50AE ---------------------
-//   icons for .50ae not implemented jet
-/*
-obj/items/weapon/ammo/container/ammo.50ae
+
+obj/items/weapon/ammo/container/ammo50ae_box
 	name = "ammo pack (.50 AE)"
 	desc = "A ammo box filled with .50 AE rounds"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
-	icon_state= ".50AE_box"
+	icon_state= "cal.50 AE_box"
 
-/* // ! still coding to do !
-obj/items/weapon/ammo/container/ammo.50ae/new()
-	..()
-	contents = list()
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	new /obj/items/weapon/ammo/bullet/57x28(src)
-	return
-*/
-
-obj/items/weapon/ammo/bullet/ammo.50ae
+obj/items/weapon/ammo/bullet/ammo50ae
 	name = "bullet (.50AE)"
 	desc = "A live .50AE round"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
-	icon_state= ".50AE"
+	icon_state= "cal.50 AE"
 
-obj/items/weapon/ammo/shell/ammo.50ae
+obj/items/weapon/ammo/shell/ammo50ae_casing
 	name = "bullet casing"
 	desc = "a used .50AE casing"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
-	icon_state= ".50AE_shell"
-*/
+	icon_state= "cal.50 AE_shell"
+
 
 

@@ -11,4 +11,3 @@ obj/items/clothing/upperbody/armor/bulletproof
 	icon = 'icons/objects/items/clothing/upper_body.dmi'
 	icon_state= "vest_bulletproof"
 	//rest still to be coded and sprited
-	// it is not my job to do so i'm just the lead artist
