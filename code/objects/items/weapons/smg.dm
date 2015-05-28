@@ -8,7 +8,7 @@
 
 obj/items/weapon/ranged/mac10
 	name = "MAC10"
-	desc = "a light smg"	//real magsize 32 (9mm)
+	desc = "a light-handed smg"	//real magsize 32 (9mm)
 	icon = 'icons/objects/items/weapons/smg.dmi'
 	icon_state= "MAC10"
 //	max_shells = 32
@@ -17,7 +17,7 @@ obj/items/weapon/ranged/mac10
 
 obj/items/weapon/ranged/mp5a2
 	name = "MP5A2"
-	desc = "a german engeneered smg"
+	desc = "a german engineered smg"
 	icon = 'icons/objects/items/weapons/smg.dmi'
 	icon_state= "MP5"
 //	max_shells = 30
@@ -26,7 +26,7 @@ obj/items/weapon/ranged/mp5a2
 
 obj/items/weapon/ranged/ump
 	name = "HK UMP"
-	desc = "a german engeneered smg with foldingstock"
+	desc = "a german engineered smg with foldingstock"
 	icon = 'icons/objects/items/weapons/smg.dmi'
 	icon_state= "hk_ump"
 //	max_shells = 30
