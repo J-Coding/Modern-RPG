@@ -38,6 +38,7 @@
 #include "code\game\verbs\debug.dm"
 #include "code\mob\human.dm"
 #include "code\objects\items\clothing\armor.dm"
+#include "code\objects\items\clothing\container.dm"
 #include "code\objects\items\clothing\upper.dm"
 #include "code\objects\items\food\rawmeat.dm"
 #include "code\objects\items\food\steak.dm"

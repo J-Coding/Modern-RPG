@@ -27,12 +27,16 @@ obj/items/weapon/ammo/bullet/ammo9x19
 	desc = "A live 9mm Pistolround"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
 	icon_state= "cal9×19"
+	//amount = 30
+	//max_amount = 30
 
 obj/items/weapon/ammo/shell/ammo9x19_casing
 	name = "bullet casing"
 	desc = "a used 9x19 casing"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
 	icon_state= "cal9×19_shell"
+	//amount = 1
+	//max_amount = 10
 
 //--------------- cal.: 5,7x28mm ------------------
 
@@ -47,13 +51,16 @@ obj/items/weapon/ammo/bullet/ammo57x28
 	desc = "A live 5.7x28 round"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
 	icon_state= "cal5,7×28"
+	//amount = 25
+	//max_amount = 25
 
 obj/items/weapon/ammo/shell/ammo57x28_casing
 	name = "bullet casing"
 	desc = "a used 5.7x28 casing"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
 	icon_state= "cal5,7×28_shell"
-
+	//amount = 1
+	//max_amount = 10
 
 //--------------- cal.: .50AE ---------------------
 
@@ -68,12 +75,15 @@ obj/items/weapon/ammo/bullet/ammo50ae
 	desc = "A live .50AE round"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
 	icon_state= "cal.50 AE"
+	//amount = 25
+	//max_amount = 25
 
 obj/items/weapon/ammo/shell/ammo50ae_casing
 	name = "bullet casing"
 	desc = "a used .50AE casing"
 	icon = 'icons/objects/items/weapons/ammo.dmi'
 	icon_state= "cal.50 AE_shell"
-
+	//amount = 1
+	//max_amount = 10
 
 

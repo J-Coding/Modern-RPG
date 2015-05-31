@@ -51,7 +51,7 @@ obj/items/weapon/melee/tool/fryingpan
 
 obj/items/weapon/melee/tool/hammer
 	name = "hammer"
-	desc = "used to create something else.... ore bash heads in"
+	desc = "used to create something else.... or bash heads in"
 	icon = 'icons/objects/items/weapons/melee.dmi'
 	icon_state= "hammer"
 
