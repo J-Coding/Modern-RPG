@@ -50,6 +50,7 @@
 #include "code\objects\items\weapons\pistols.dm"
 #include "code\objects\items\weapons\smg.dm"
 #include "code\objects\items\world\streetlight.dm"
+#include "code\objects\items\world\structure.dm"
 #include "code\settings\objectsettings.dm"
 #include "code\turf\nature.dm"
 #include "code\turf\streets.dm"
