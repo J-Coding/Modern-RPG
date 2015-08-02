@@ -6,5 +6,5 @@ obj/items/food/toxins/toxin
 
 	verb/eat()
 		set src in view(0)
-		usr.getDamageHuman(20)
+		usr.getDamage(20)
 		del src

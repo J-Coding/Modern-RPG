@@ -1,4 +1,4 @@
-mob
+mob/human
 	//spawnsection. Dont change it you cunt! AND SAFE CHANGES VINI GODDAMIT!
 	Login()
 		loc = locate(/turf/spawns/human)
@@ -10,13 +10,10 @@ mob
 	icon = 'icons/mob/human.dmi'
 	icon_state = "human"
 	density = 1
-	luminosity = 0
+	//changed because the map is pitch black and
+	//otherwise would be unable to see
+	//more than 1 square change back to 0 later.
+	luminosity = 10
 
-	var/lifehuman = 100
-	var/lifehumanmax = 100
-
-	proc/getDamageHuman(d)
-		lifehuman = lifehuman - d
-		if (lifehuman <= 0)
-			view() << "[usr] dies."
-			del src
+	life = 100
+	lifemax = 100

@@ -37,6 +37,7 @@
 #include "code\features\time\time.dm"
 #include "code\game\verbs\debug.dm"
 #include "code\mob\human.dm"
+#include "code\mob\mob.dm"
 #include "code\objects\items\clothing\armor.dm"
 #include "code\objects\items\clothing\container.dm"
 #include "code\objects\items\clothing\upper.dm"
